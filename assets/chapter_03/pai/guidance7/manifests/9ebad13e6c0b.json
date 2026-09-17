@@ -1,0 +1,28 @@
+{
+  "checkpoint": "nvidia/Cosmos-Predict2.5-2B",
+  "revision": "0d37c7498f54cee3c599d438d895a0a4a8608064",
+  "seed": 0,
+  "num_frames": 93,
+  "guidance_scale": 7.0,
+  "num_inference_steps": 36,
+  "height": 704,
+  "width": 1280,
+  "prompt": "The video opens with a close-up view of a toy kitchen setup, featuring a miniature blue stove with a silver pot on one burner. Various toy food items are arranged around the stove: a red chili pepper, a red sushi, a yellow banana, a red bottle resembling a condiment container, and a green round object. Above the stove, a white shelf holds an orange toy carrot. A robotic arm enters the frame from the left, moves towards the red sushi, and picks it up, lifting it towards the silver pot on the stove. The robotic arm then places the red sushi into the pot, simulating the act of cooking. The final frame shows the red sushi inside the pot, with the robotic arm having completed its task.  A close-up shot captures the robotic arm's precise movements as it interacts with the toy food items, emphasizing the playful and imaginative nature of the scene. The background includes a realistic kitchen setting with a stove, oven, and various kitchen utensils, adding depth to the environment. The video maintains a playful and engaging tone throughout, highlighting the interaction between the robotic arm and the toy kitchen setup.",
+  "observation": "outputs/chapter_03/pai/subset/condition_image/robot_001.jpg",
+  "outputs": [
+    "/mnt/ssd-4/nahid/world_model_from_scratch_private/outputs/chapter_03/pai/guidance7/runs/9ebad13e6c0b/rollout.mp4"
+  ],
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "diffusers": "0.39.0",
+    "transformers": "5.14.1",
+    "cosmos_guardrail": "0.3.1",
+    "accelerate": "1.14.0"
+  },
+  "created_at": "2026-09-09T08:06:15.180899+00:00",
+  "conditioning_frames_sha256": "c502c397027a15e472f6b96acdca1be3312d40dc264eb4456eabd2f0c24c8e7d",
+  "conditioning_num_frames": 1,
+  "conditioning_fps": null,
+  "output_fps": 16,
+  "run_id": "9ebad13e6c0b"
+}

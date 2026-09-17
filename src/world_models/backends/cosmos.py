@@ -5,7 +5,11 @@ above it depends on the book's model-agnostic interfaces, not on Cosmos.
 """
 from __future__ import annotations
 
+import os
+import shutil
+import tempfile
 from dataclasses import dataclass
+from pathlib import Path
 
 import numpy as np
 
@@ -39,11 +43,34 @@ CHECKPOINTS: dict[str, CheckpointSpec] = {
 }
 
 
+def _stage_guardrail_nltk_data(checkpoint_id: str) -> None:
+    """Copy HF-linked NLTK data to regular files when NLTK has no override."""
+    if os.environ.get("NLTK_DATA"):
+        return
+
+    from huggingface_hub import snapshot_download
+
+    snapshot = Path(snapshot_download(
+        checkpoint_id, allow_patterns=["blocklist/nltk_data/*"]
+    ))
+    source = snapshot / "blocklist" / "nltk_data"
+    if not any(path.is_symlink() for path in source.rglob("*")):
+        return
+    target = Path(tempfile.mkdtemp(prefix="cosmos-guardrail-nltk-")) / "nltk_data"
+    shutil.copytree(source, target, symlinks=False)
+    os.environ["NLTK_DATA"] = str(target)
+
+    import nltk
+
+    nltk.data.path.insert(0, str(target))
+
+
 def apply_guardrail_compatibility_patch() -> None:
-    """Keep cosmos_guardrail 0.3.1 active while fixing its device property.
+    """Keep cosmos_guardrail 0.3.1 active with current Diffusers and NLTK.
 
     Version 0.3.1 exposes a read-only property that fails when Diffusers checks
-    the pipeline device. Other versions are left unchanged.
+    the pipeline device. Its NLTK data also uses Hugging Face cache symlinks
+    rejected by NLTK's hardened file reader. Other versions are left unchanged.
     """
     from importlib.metadata import PackageNotFoundError, version
 
@@ -57,8 +84,12 @@ def apply_guardrail_compatibility_patch() -> None:
 
     if guardrail_version == "0.3.1":
         import torch
-        from cosmos_guardrail.cosmos_guardrail import CosmosSafetyChecker
+        from cosmos_guardrail.cosmos_guardrail import (
+            COSMOS_GUARDRAIL_CHECKPOINT,
+            CosmosSafetyChecker,
+        )
 
+        _stage_guardrail_nltk_data(COSMOS_GUARDRAIL_CHECKPOINT)
         CosmosSafetyChecker.device = property(lambda self: torch.device("cuda"))
 
 
@@ -95,10 +126,12 @@ class CosmosBackend:
                 guidance_scale: float, num_inference_steps: int) -> np.ndarray:
         import torch
 
+        conditioning = to_conditioning(observation)
+        is_image = observation.num_frames == 1
         with torch.inference_mode():
             result = self.pipeline(
-                image=None,
-                video=to_conditioning(observation),
+                image=conditioning[0] if is_image else None,
+                video=None if is_image else conditioning,
                 prompt=prompt,
                 num_frames=num_frames,
                 guidance_scale=guidance_scale,

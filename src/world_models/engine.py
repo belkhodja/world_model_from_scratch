@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
+import hashlib
+import json
 from pathlib import Path
 from typing import Protocol
 
@@ -51,6 +53,13 @@ class RolloutEngine:
             num_inference_steps=num_inference_steps,
             height=spec.height, width=spec.width, prompt=prompt,
             observation=str(observation.source) if observation.source else "in-memory",
+            conditioning_frames_sha256=hashlib.sha256(
+                json.dumps(list(observation.frames.shape)).encode()
+                + observation.frames.tobytes(order="C")
+            ).hexdigest(),
+            conditioning_num_frames=observation.num_frames,
+            conditioning_fps=observation.fps,
+            output_fps=spec.fps,
         )
         if save_to is not None:
             manifest = self._save(frames, manifest, Path(save_to))

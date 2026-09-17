@@ -1,0 +1,28 @@
+{
+  "checkpoint": "nvidia/Cosmos-Predict2.5-2B",
+  "revision": "0d37c7498f54cee3c599d438d895a0a4a8608064",
+  "seed": 1,
+  "num_frames": 93,
+  "guidance_scale": 7.0,
+  "num_inference_steps": 36,
+  "height": 704,
+  "width": 1280,
+  "prompt": "A wide-angle shot of a modern industrial factory showcasing a large, curved conveyor belt system made of metallic frames and yellow plastic crates, which are moving in a continuous loop. The conveyor belt is situated centrally within the frame, with the crates evenly spaced and steadily progressing around the curve. To the left of the camera's frame, stacks of additional yellow crates are neatly arranged next to metal shelving units. The background features more shelving units and similar yellow crates lined down the conveyor belt, emphasizing the organized storage. The floor is a concrete surface, and the ceiling is equipped with fluorescent lighting that illuminates the area. Throughout the video, the conveyor belt's movement is consistent, with no noticeable changes in speed or direction, maintaining a smooth and efficient workflow. The conveyor belt and yellow crates are always in the camera's view throughout the video. The final frame captures this ongoing activity, highlighting the seamless operation of the conveyor system and the orderly arrangement of the storage areas. The camera movement moves forward throughout the video, providing a dynamic perspective of the industrial setting.",
+  "observation": "outputs/chapter_03/pai/subset/condition_image/industry_001.jpg",
+  "outputs": [
+    "/mnt/ssd-4/nahid/world_model_from_scratch_private/outputs/chapter_03/pai/guidance7/runs/bca1296f9da7/rollout.mp4"
+  ],
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "diffusers": "0.39.0",
+    "transformers": "5.14.1",
+    "cosmos_guardrail": "0.3.1",
+    "accelerate": "1.14.0"
+  },
+  "created_at": "2026-09-09T07:39:48.895587+00:00",
+  "conditioning_frames_sha256": "beb068f8e187e00bb0d80b1ccb9784ee5b5dc28f27b4f51efeb8bb496432d01a",
+  "conditioning_num_frames": 1,
+  "conditioning_fps": null,
+  "output_fps": 16,
+  "run_id": "bca1296f9da7"
+}

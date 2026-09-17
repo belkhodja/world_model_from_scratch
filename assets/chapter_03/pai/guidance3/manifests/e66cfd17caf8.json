@@ -1,0 +1,28 @@
+{
+  "checkpoint": "nvidia/Cosmos-Predict2.5-2B",
+  "revision": "0d37c7498f54cee3c599d438d895a0a4a8608064",
+  "seed": 1,
+  "num_frames": 93,
+  "guidance_scale": 3.0,
+  "num_inference_steps": 36,
+  "height": 704,
+  "width": 1280,
+  "prompt": "The video opens with a vibrant scene of a pedestrian street in a European city, lined with tall, lush green trees providing ample shade over the cobblestone walkway. The street is bustling with people, many dressed in casual summer attire such as shorts, t-shirts, and light dresses, suggesting warm weather. Some individuals carry bags or wear backpacks, indicating they might be exploring or shopping. The buildings on either side are multi-story structures with balconies and large windows, featuring a mix of modern and traditional architectural styles. The overall ambiance is lively yet relaxed, with people walking in various directions, some in groups and others alone, contributing to the dynamic energy of the scene. As the video progresses, the camera remains stationary, capturing the continuous flow of pedestrians. The individuals continue their leisurely stroll, with some walking briskly and others moving more slowly. The trees continue to cast shadows, and the buildings maintain their imposing presence, reinforcing the sense of a well-established urban environment. The scene remains consistent throughout the video, with no significant changes in the environment or the actions of the people, maintaining the same lively yet tranquil atmosphere established in the first frame.",
+  "observation": "outputs/chapter_03/pai/subset/condition_image/human_000.jpg",
+  "outputs": [
+    "/mnt/ssd-4/nahid/world_model_from_scratch_private/outputs/chapter_03/pai/guidance3/runs/e66cfd17caf8/rollout.mp4"
+  ],
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "diffusers": "0.39.0",
+    "transformers": "5.14.1",
+    "cosmos_guardrail": "0.3.1",
+    "accelerate": "1.14.0"
+  },
+  "created_at": "2026-09-09T09:24:09.280372+00:00",
+  "conditioning_frames_sha256": "3ced5e6f31f8ce92eb3aef2d587447f8a7f99c787b2e01caf477a891dc52fa36",
+  "conditioning_num_frames": 1,
+  "conditioning_fps": null,
+  "output_fps": 16,
+  "run_id": "e66cfd17caf8"
+}

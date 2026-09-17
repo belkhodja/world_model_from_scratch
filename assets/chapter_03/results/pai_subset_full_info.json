@@ -1,0 +1,226 @@
+[
+  {
+    "prompt_en": "The video begins with a view from inside a vehicle, likely captured by a dashboard camera, as it approaches an intersection in a suburban neighborhood. The road is marked with a \"SLOW SCHOOL XING\" sign painted in yellow on the asphalt, indicating a speed limit or cautionary area. Double yellow lines run continuously along the left side of the ego vehicle. As the vehicle moves into the left-turn-only lane, the left-turn-only pavement marking becomes clearly visible, with a single white line appearing on the right side of the vehicle. The street is lined with mature trees, their branches casting shadows across the road, suggesting a sunny day. On the left side of the road, there's a white car parked near a sidewalk. Across the street, a few more cars are parked along the curb, and a multi-story building with large windows stands in the background. The sky above is clear and blue, adding to the serene suburban atmosphere. As the ego vehicle moves forward, the \"SLOW SCHOOL XING\" sign remains prominently displayed on the road. Two cyclists appear on the left side of the road, riding past the ego vehicle, while a white sedan drives towards the camera from the opposite direction. The cyclists continue down the street, and the sedan passes by, revealing more of the residential area with parked cars and houses. The trees continue to cast shadows, and the clear blue sky persists throughout the scene.  A point-of-view shot from within a moving vehicle, capturing the road ahead and the surrounding suburban neighborhood. The camera angle provides a first-person perspective, emphasizing the motion and the environment as the vehicle navigates the intersection and continues down the street. The scene is bathed in natural sunlight, highlighting the details of the road markings, the parked cars, and the lush greenery of the trees. The overall atmosphere is calm and orderly, typical of a quiet suburban setting.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "av_002b815b-7595-4d54-a9f4-4c62c83d3009.jpg",
+    "reference_video": "av_002b815b-7595-4d54-a9f4-4c62c83d3009.mp4",
+    "video_id": "av_002b815b-7595-4d54-a9f4-4c62c83d3009"
+  },
+  {
+    "prompt_en": "A dashcam video captures a multi-lane urban street intersection under clear skies with the sun low on the horizon, casting long shadows. The scene is set in a commercial area, with several cars visible, including a white van directly ahead and others moving in both directions. The road is lined with trees on the right side, providing shade for the sidewalk, where a few parked cars are also visible. Traffic lights hang above the intersection, and in the distance, more buildings and signs can be seen. The overall atmosphere is calm, with no immediate signs of congestion or activity beyond the steady flow of traffic. The ego vehicle, positioned behind the white van, slows down as it approaches the intersection, with the white van's rear right-turn signal flashing. A few other vehicles are stopped in the ego vehicle's lane at red traffic lights. The camera angle provides a first-person perspective from within the ego vehicle, capturing the view through the windshield and hood, emphasizing the calm yet dynamic urban environment.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531.jpg",
+    "reference_video": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531.mp4",
+    "video_id": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531"
+  },
+  {
+    "prompt_en": "A man with short hair, dressed in a black long-sleeved shirt with white writing on its sleeves, orange writing on his right chest, and black gloves, is skillfully packing food at a bustling street food stall. He uses metal tongs to pick up bite-sized snacks from a tray filled with golden, bite-sized snacks and a silver cooking skimmer, placing them into a white paper cup with brown stripes and some writing. The man appears focused and deliberate in his movements, with a soft ambient light illuminating his face. In front of him, another tray holds food in a rich sauce, with two cutlery items visible on the lower side. The scene is set against a backdrop of a red-painted indoor space, filled with various items and papers with writings and drawings stuck on one side of the wall. The camera captures the man in a medium shot at eye level, tilting up to show his concentrated expression as he continues to pack the food. A large poster with a drawing and writing is partially visible on his left. The bright and inviting colors, along with the fast and adept movements of the vendor, create an appetizing and lively culinary experience.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "common_sense_049c9292-db5f-490b-a72b-546775e8156c.jpg",
+    "reference_video": "common_sense_049c9292-db5f-490b-a72b-546775e8156c.mp4",
+    "video_id": "common_sense_049c9292-db5f-490b-a72b-546775e8156c"
+  },
+  {
+    "prompt_en": "A young boy sits on a light brown chair in an outdoor setting, enjoying a burger. The video is captured in a medium shot at eye level, focusing on the boy who is wearing a gray T-shirt with colorful text across the chest. He looks down toward the bottom of the frame, appearing engaged with his meal. A glass railing stretches along the right side of the frame, and another individual is sitting on the boy's right, with their left arm visible in the frame.  In the next moment, the boy brings a burger close to his mouth from the center-bottom of the frame, holding it with both hands and taking a bite. The person off the frame to the left puts their hand on his back, and the boy then puts the burger down, shifting his gaze toward the camera while chewing. He looks slightly to the left of the frame and brings his right hand in a closed fist to his mouth. A jump cut occurs, and the clip resumes with the same shot and angle, showing the boy's hand near his mouth as he continues to chew and smile. He then puts both of his hands in fists in the air before bringing them close to his mouth while smiling. He begins to talk, making an open-handed gesture with the back of both hands facing the lower left and right corners of the frame. Another jump cut follows, and the boy continues to talk, making a pointing gesture toward the camera with his right hand. He looks to the right and then the left of the frame while doing this.  The background is blurred, showing an outdoor seating area with some greenery, and the environment is urban, with tall buildings faintly visible in the distance on the right side of the frame. An overcast sky is visible, and the camera remains static throughout. The lighting is bright, with soft natural light illuminating the surroundings.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155.jpg",
+    "reference_video": "common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155.mp4",
+    "video_id": "common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155"
+  },
+  {
+    "prompt_en": "The video opens with a vibrant scene of a pedestrian street in a European city, lined with tall, lush green trees providing ample shade over the cobblestone walkway. The street is bustling with people, many dressed in casual summer attire such as shorts, t-shirts, and light dresses, suggesting warm weather. Some individuals carry bags or wear backpacks, indicating they might be exploring or shopping. The buildings on either side are multi-story structures with balconies and large windows, featuring a mix of modern and traditional architectural styles. The overall ambiance is lively yet relaxed, with people walking in various directions, some in groups and others alone, contributing to the dynamic energy of the scene. As the video progresses, the camera remains stationary, capturing the continuous flow of pedestrians. The individuals continue their leisurely stroll, with some walking briskly and others moving more slowly. The trees continue to cast shadows, and the buildings maintain their imposing presence, reinforcing the sense of a well-established urban environment. The scene remains consistent throughout the video, with no significant changes in the environment or the actions of the people, maintaining the same lively yet tranquil atmosphere established in the first frame.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "human_000.jpg",
+    "reference_video": "human_000.mp4",
+    "video_id": "human_000"
+  },
+  {
+    "prompt_en": "The video opens with a wide shot of a bustling urban plaza, likely in Chicago, centered around the iconic Cloud Gate sculpture, also known as \"The Bean.\" The reflective surface of the sculpture gleams under an overcast sky, mirroring the surrounding buildings and the people around it. The plaza is paved with large, light-colored tiles, and numerous individuals are scattered across the area, some walking towards the sculpture while others are further away, exploring the space. In the background, a mix of modern high-rise buildings rises above the plaza, their windows reflecting the muted light of the day. The overall atmosphere suggests a cool, possibly winter day, as many people are dressed in jackets and hats.  As the video progresses, a person wearing a gray jacket and carrying a black backpack walks from right to left across the frame, passing by the Cloud Gate sculpture. This individual appears to be casually strolling, occasionally adjusting their backpack and looking around. Another person, dressed in a beige coat and white hat, enters the frame from the right side, walking towards the sculpture while holding a phone in one hand. This second individual seems to be focused on their device, perhaps checking directions or taking a photo. The background remains consistent, with other pedestrians moving about the plaza, contributing to the lively yet relaxed ambiance of the scene.  The camera then shifts to a closer view, capturing the reflective surface of the Cloud Gate sculpture in greater detail. The sculpture's polished surface captures the surrounding buildings and the overcast sky, creating a mesmerizing mirror effect. The plaza is now seen from a lower angle, emphasizing the height of the sculpture and the scale of the urban environment. The people in the plaza appear smaller in this perspective, adding a sense of grandeur to the scene.  By the end of the video, the scene continues to depict the same bustling urban plaza with the Cloud Gate sculpture at its center. The reflective surface of the sculpture still gleams under the overcast sky, and the plaza remains populated with people walking and exploring the area. The modern high-rise buildings in the background continue to reflect the muted light, maintaining the cool, possibly winter atmosphere. The overall scene remains lively and dynamic, capturing the essence of a busy city square on a cloudy day.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "human_001.jpg",
+    "reference_video": "human_001.mp4",
+    "video_id": "human_001"
+  },
+  {
+    "prompt_en": "A wide-angle shot of a modern industrial factory showcasing a large, curved conveyor belt system made of metallic frames and yellow plastic crates, which are moving in a continuous loop. The conveyor belt is situated centrally within the frame, with the crates evenly spaced and steadily progressing around the curve. To the left of the camera's frame, stacks of additional yellow crates are neatly arranged next to metal shelving units. The background features more shelving units and similar yellow crates lined down the conveyor belt, emphasizing the organized storage. The floor is a concrete surface, and the ceiling is equipped with fluorescent lighting that illuminates the area. Throughout the video, the conveyor belt's movement is consistent, with no noticeable changes in speed or direction, maintaining a smooth and efficient workflow. The conveyor belt and yellow crates are always in the camera's view throughout the video. The final frame captures this ongoing activity, highlighting the seamless operation of the conveyor system and the orderly arrangement of the storage areas. The camera movement moves forward throughout the video, providing a dynamic perspective of the industrial setting.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "industry_001.jpg",
+    "reference_video": "industry_001.mp4",
+    "video_id": "industry_001"
+  },
+  {
+    "prompt_en": "The video opens with a view of an industrial setting, likely a manufacturing facility, characterized by a clean and sterile environment. The scene features a conveyor belt system transporting white bottles through a series of automated machinery. The machinery includes various mechanical arms, pipes, and tubes, predominantly metallic and transparent, with some components colored yellow and blue. The conveyor belt moves steadily, carrying the bottles towards the processing stations. The background reveals additional machinery and equipment, suggesting a complex production line. The lighting is bright and evenly distributed, remaining consistent throughout the video.  As the video progresses, the mechanical arms are seen lifting and positioning the bottles at different stages of the production process. The mechanical arm can be seen adding bottle caps on top of the bottles. The bottles move smoothly along the conveyor, indicating a continuous workflow. The camera angle shifts slightly, providing a closer view of the machinery and the bottles as they pass through the processing stations. The final frame captures the same scene, with the conveyor belt continuing its steady movement, the bottles being processed, and the machinery functioning seamlessly, maintaining the same level of activity and efficiency observed throughout the video.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "industry_002.jpg",
+    "reference_video": "industry_002.mp4",
+    "video_id": "industry_002"
+  },
+  {
+    "prompt_en": "A serene coastal scene bathed in the warm, golden light of either sunrise or sunset. The foreground is dominated by rugged, dark rocks covered in patches of reddish-brown seaweed, creating a textured and earthy foreground. These rocks are interspersed with smaller, smoother stones, adding depth to the composition. In the mid-ground, gentle waves lap against the rocky shoreline, their white foam contrasting softly with the darker tones of the rocks. The ocean extends into the distance, its surface a mix of deep blues and lighter hues where the sunlight reflects off the water's surface. The sky above is a soft gradient of light, suggesting the time of day is either early morning or late evening, enhancing the tranquil and picturesque quality of the scene. As the video progresses, the waves continue to crash against the rocks, creating small pools and splashes that add movement to the otherwise still landscape. The sun maintains its warm, golden glow throughout, casting a consistent light across the scene and highlighting the textures of the rocks and the frothy white of the waves as they break. No new objects appear; the focus remains on the natural interaction between the ocean and the rocky shore. The final frame captures this ongoing, peaceful interaction, with the waves continuing to flow and the rocks standing firm under the warm, glowing light.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "misc_1093662-hd_1920_1080_30fps.jpg",
+    "reference_video": "misc_1093662-hd_1920_1080_30fps.mp4",
+    "video_id": "misc_1093662-hd_1920_1080_30fps"
+  },
+  {
+    "prompt_en": "The video opens with a tranquil riverside scene, where a group of Canada geese, including adults and chicks, are gathered on a patch of vibrant green grass. The adult geese, characterized by their black heads and necks and gray bodies, stand protectively among the smaller, fluffy chicks, which have lighter gray feathers. The geese appear to be foraging or resting, with some heads turned towards the camera and others facing away, seemingly alert to their surroundings. The background features tall grasses swaying gently in the breeze and a calm river flowing along the left side of the frame, bordered by rocks and more vegetation. The overall atmosphere is peaceful and natural.  As the video progresses, the geese continue to remain mostly stationary, with subtle movements such as slight head turns and minor shifts in position. The chicks occasionally peck at the ground or nuzzle close to the adults, maintaining a sense of unity and safety within the group. The grass continues to sway gently, and the river remains calm, reinforcing the serene setting. By the final frame, the scene remains largely unchanged, with the geese and chicks still gathered closely on the grass. The adult geese continue to stand protectively, and the chicks remain active but contained within the group. The gentle swaying of the grass and the steady flow of the river provide a constant backdrop to this peaceful moment in nature.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "misc_1200903-hd_1920_1080_30fps.jpg",
+    "reference_video": "misc_1200903-hd_1920_1080_30fps.mp4",
+    "video_id": "misc_1200903-hd_1920_1080_30fps"
+  },
+  {
+    "prompt_en": "A minimalist indoor setting features a plain white wall as the backdrop. Centered on a wooden table is an open black fabric box with a textured pattern, standing upright. Suspended above the box by an orange grabber is a yellow rubber ducky, initially at rest. The scene remains static for several frames, building anticipation. The ducky is then released, falling freely towards the box. The ducky eventually lands inside the box, creating a satisfying conclusion to the sequence. A medium shot captures the entire action from a slightly elevated perspective.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "physics_001.jpg",
+    "reference_video": "physics_001.mp4",
+    "video_id": "physics_001"
+  },
+  {
+    "prompt_en": "A minimalist living room scene begins with a static shot of a mustard-yellow velvet sofa with a tufted design, positioned against a plain white wall. The sofa's rich color contrasts beautifully with the stark background. In front of the sofa, a light wooden coffee table takes center stage, with a black cylindrical object resting on its left side. To the far right, a dark wooden side table holds a lamp with a black shade. The scene remains unchanged until a grey tennis ball emerges from a black pipe located at the edge of the coffee table. The ball rolls smoothly across the table's surface towards the right, eventually rolling off-screen. The final frame shows the coffee table empty again, with the black pipe still in place, and the tennis ball no longer visible. A medium shot captures the entire setup, emphasizing the contrast between the vibrant sofa and the neutral tones of the room.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "physics_002.jpg",
+    "reference_video": "physics_002.mp4",
+    "video_id": "physics_002"
+  },
+  {
+    "prompt_en": "The video begins with a close-up shot of a metallic cabinet door, characterized by a sleek silver handle and a rectangular compartment with four buttons above it. The cabinet is set against a backdrop of light-colored wooden shelving that holds various kitchen items. The floor is covered with a speckled white tile, and a black robotic arm is positioned above the cabinet door, indicating an impending interaction. As the robotic arm descends, it grasps the door handle, applying pressure to open the door. The arm then opens the door slightly, revealing the interior shelves below, which contain a green plate and a yellow object, possibly a fruit. The robotic arm releases the handle, adjusts its position, then opens the door further, exposing the contents of the shelves inside. The camera remains steady throughout, capturing the smooth motion of the robotic arm and the gradual opening of the cabinet door.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "robot_000.jpg",
+    "reference_video": "robot_000.mp4",
+    "video_id": "robot_000"
+  },
+  {
+    "prompt_en": "The video opens with a close-up view of a toy kitchen setup, featuring a miniature blue stove with a silver pot on one burner. Various toy food items are arranged around the stove: a red chili pepper, a red sushi, a yellow banana, a red bottle resembling a condiment container, and a green round object. Above the stove, a white shelf holds an orange toy carrot. A robotic arm enters the frame from the left, moves towards the red sushi, and picks it up, lifting it towards the silver pot on the stove. The robotic arm then places the red sushi into the pot, simulating the act of cooking. The final frame shows the red sushi inside the pot, with the robotic arm having completed its task.  A close-up shot captures the robotic arm's precise movements as it interacts with the toy food items, emphasizing the playful and imaginative nature of the scene. The background includes a realistic kitchen setting with a stove, oven, and various kitchen utensils, adding depth to the environment. The video maintains a playful and engaging tone throughout, highlighting the interaction between the robotic arm and the toy kitchen setup.",
+    "dimension": [
+      "aesthetic_quality",
+      "background_consistency",
+      "imaging_quality",
+      "motion_smoothness",
+      "overall_consistency",
+      "subject_consistency",
+      "i2v_background",
+      "i2v_subject"
+    ],
+    "image_name": "robot_001.jpg",
+    "reference_video": "robot_001.mp4",
+    "video_id": "robot_001"
+  }
+]

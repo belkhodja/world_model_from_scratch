@@ -16,6 +16,12 @@ REPRODUCIBILITY_FIELDS = (
     "prompt", "observation",
 )
 
+# Omitted values preserve the identifiers of manifests shipped before Chapter 3.
+OPTIONAL_REPRODUCIBILITY_FIELDS = (
+    "conditioning_frames_sha256", "conditioning_num_frames",
+    "conditioning_fps", "output_fps",
+)
+
 
 def _versions(
     packages: tuple[str, ...] = (
@@ -54,14 +60,35 @@ class RunManifest:
     created_at: str = field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
+    conditioning_frames_sha256: str | None = None
+    conditioning_num_frames: int | None = None
+    conditioning_fps: float | None = None
+    output_fps: float | None = None
 
     @property
     def run_id(self) -> str:
         """Content-addressed id from the reproducibility fields alone."""
-        payload = json.dumps(
-            {k: getattr(self, k) for k in REPRODUCIBILITY_FIELDS}, sort_keys=True
-        )
+        fields = {k: getattr(self, k) for k in REPRODUCIBILITY_FIELDS}
+        fields.update({k: getattr(self, k) for k in OPTIONAL_REPRODUCIBILITY_FIELDS
+                       if getattr(self, k) is not None})
+        payload = json.dumps(fields, sort_keys=True)
         return hashlib.sha1(payload.encode()).hexdigest()[:12]
+
+    @classmethod
+    def load(cls, path: str | Path) -> "RunManifest":
+        """Read a saved manifest and reject a mismatched content identifier.
+
+        Legacy records may omit the new conditioning fields. A record without
+        a saved run_id is also accepted; its identifier is computed normally.
+        """
+        record = json.loads(Path(path).read_text())
+        if not isinstance(record, dict):
+            raise ValueError(f"Manifest must be a JSON object: {path}")
+        saved_id = record.pop("run_id", None)
+        manifest = cls(**record)
+        if saved_id is not None and saved_id != manifest.run_id:
+            raise ValueError(f"Manifest run_id mismatch: {path}")
+        return manifest
 
     def save(self, run_dir: Path, filename: str = "manifest.json") -> Path:
         run_dir = Path(run_dir)
