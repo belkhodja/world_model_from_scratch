@@ -1,0 +1,1050 @@
+{
+    "aesthetic_quality": [
+        0.5132971065385001,
+        [
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.5266261696815491
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.5381266474723816
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.5082007646560669
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.5118388533592224
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.4785480201244354
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.4658504128456116
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.557439386844635
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.5233868956565857
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.5960358381271362
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.609325110912323
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.5323928594589233
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.5366698503494263
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.39827966690063477
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.42192283272743225
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.5142610669136047
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.47765809297561646
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.5340074300765991
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.5110622644424438
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.5810205340385437
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.5880129337310791
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.42450401186943054
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.4255477786064148
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.3880229592323303
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.39281919598579407
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.504256546497345
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.5073554515838623
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.6530023217201233
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.6661450862884521
+            }
+        ]
+    ],
+    "background_consistency": [
+        0.937658653496215,
+        [
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.9305764903192935,
+                "video_sim": 85.613037109375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.9449383279551631,
+                "video_sim": 86.934326171875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.9697292162024457,
+                "video_sim": 89.215087890625,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.9674921450407609,
+                "video_sim": 89.00927734375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.8948788850203805,
+                "video_sim": 82.328857421875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.8886692212975543,
+                "video_sim": 81.757568359375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.89141845703125,
+                "video_sim": 82.010498046875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.9027205757472826,
+                "video_sim": 83.05029296875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.9629383916440217,
+                "video_sim": 88.59033203125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.95306396484375,
+                "video_sim": 87.681884765625,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.9277370287024457,
+                "video_sim": 85.351806640625,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.9062181555706522,
+                "video_sim": 83.3720703125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.9609162703804348,
+                "video_sim": 88.404296875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.966231636379076,
+                "video_sim": 88.893310546875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.936324409816576,
+                "video_sim": 86.141845703125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.9634479025135869,
+                "video_sim": 88.63720703125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9790569802989131,
+                "video_sim": 90.0732421875,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9819389011548914,
+                "video_sim": 90.33837890625,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9676434060801631,
+                "video_sim": 89.023193359375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.977493949558424,
+                "video_sim": 89.929443359375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.9547304899796195,
+                "video_sim": 87.835205078125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.9459653108016305,
+                "video_sim": 87.02880859375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.9227772588315217,
+                "video_sim": 84.8955078125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.9289152725883152,
+                "video_sim": 85.460205078125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.8790256666100543,
+                "video_sim": 80.870361328125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.9051805579144022,
+                "video_sim": 83.276611328125,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.9262217646059783,
+                "video_sim": 85.21240234375,
+                "cnt_per_video": 92
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.9181916610054348,
+                "video_sim": 84.4736328125,
+                "cnt_per_video": 92
+            }
+        ]
+    ],
+    "imaging_quality": [
+        0.7328432591609692,
+        [
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 73.90011449013987
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 72.95560791671917
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 69.14983946277249
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 69.15427058230165
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 78.59815314508253
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 78.76282140260102
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 73.56936957246513
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 75.13778136878885
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 69.95557403564453
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 67.77895088605983
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 67.04102391068653
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 70.32533854822958
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 80.2902345554803
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 80.24478108395812
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 69.92262419833932
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 65.29408916350334
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 74.82417133290281
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 71.72542481781333
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 75.25885108209425
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 75.48202194706086
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 69.63683712866998
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 68.99726318031229
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 72.08333702497585
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 71.09512255268712
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 78.05529891803701
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 77.44766046667611
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 77.67540199525895
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 77.59916088145266
+            }
+        ]
+    ],
+    "motion_smoothness": [
+        0.9895767280210693,
+        [
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.9817964652607739
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.9830554317791789
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.9925731090766501
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.9927426947907787
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.9898110007574547
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.9921152482757967
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.9861301737768611
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.9859576531908155
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.9946570441050834
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.9939495736870383
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.9868645368754076
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.9833857381698923
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.9886348466898545
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.9901805846248712
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.9837491225279792
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.9821305311421238
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9886648820604442
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9915142788995797
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.993507604133113
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9936089770802353
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.9968980505040919
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.996765375094707
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.9958133065678666
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.9965090812378198
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.9777102043591183
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.991018047453485
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.9886316626884151
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.9897731597804996
+            }
+        ]
+    ],
+    "overall_consistency": [
+        0.21949392397488868,
+        [
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.20872297883033752
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.21499091386795044
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.2579524517059326
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.250080943107605
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.09101702272891998
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.09394197165966034
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.2464648187160492
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.25993502140045166
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.20831263065338135
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.206553652882576
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.2660110294818878
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.2589308023452759
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.2580786943435669
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.2635478973388672
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.15727418661117554
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.16238480806350708
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.2159033715724945
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.21990343928337097
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.2932252287864685
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.28792688250541687
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.18797506392002106
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.19424287974834442
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.2168947160243988
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.24742841720581055
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.23879790306091309
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.2160172015428543
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.20886200666427612
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.21445293724536896
+            }
+        ]
+    ],
+    "subject_consistency": [
+        0.9187974188337971,
+        [
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.8978257273202357
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.8959321399097857
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.9208549293486968
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.9032595756909122
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.9204801421450532
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.9323261775400328
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.8626667685482813
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.9017380971623503
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.9644771179427272
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.9654123154671296
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.9023262090657068
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.8818416789821957
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.9431873553473017
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.9332085008854452
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.8202224163257558
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.907627133247645
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9472680979448816
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9685636042900707
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9810175973436107
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9808267620594605
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.9669008080078207
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.9683624765147334
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.9214917197823524
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.951178589268871
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.8257696916875632
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.8342282448125922
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.9081142635449119
+            },
+            {
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.9192195871601934
+            }
+        ]
+    ],
+    "i2v_background": [
+        0.9710036580028557,
+        [
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_002b815b-7595-4d54-a9f4-4c62c83d3009.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.9788688392094944
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_002b815b-7595-4d54-a9f4-4c62c83d3009.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.9776132039401841
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.9914529905371043
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.9870853886008263
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_049c9292-db5f-490b-a72b-546775e8156c.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.9771250984590987
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_049c9292-db5f-490b-a72b-546775e8156c.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.9728264719247818
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.8496578651277915
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.8498939331458962
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.990108624683774
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.9912151570553365
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.9659050376518912
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.9458596758868383
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.9879597222027572
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.9931591885893241
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.9709881562901579
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.9454046483920968
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1093662-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9922052836288577
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1093662-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9927494880297909
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1200903-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9968812362655348
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1200903-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9968242211834244
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.9885756218562954
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.9817929992209311
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.9772058480459711
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.9915124299085658
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.9641358099553896
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.9779851671794186
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.9770611057462899
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.976049211362134
+            }
+        ]
+    ],
+    "i2v_subject": [
+        0.9601976657644933,
+        [
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_002b815b-7595-4d54-a9f4-4c62c83d3009.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+                "video_results": 0.9622605977498967
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_002b815b-7595-4d54-a9f4-4c62c83d3009.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4",
+                "video_results": 0.9685228961965312
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+                "video_results": 0.9909863528998002
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4",
+                "video_results": 0.9890005770584811
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_049c9292-db5f-490b-a72b-546775e8156c.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+                "video_results": 0.9783005057469658
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_049c9292-db5f-490b-a72b-546775e8156c.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4",
+                "video_results": 0.9807603166155192
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+                "video_results": 0.8231783682237501
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4",
+                "video_results": 0.827824313096378
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__0.mp4",
+                "video_results": 0.9822226603393969
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_000__1.mp4",
+                "video_results": 0.9857112412219462
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__0.mp4",
+                "video_results": 0.9387462755260259
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/human_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/human_001__1.mp4",
+                "video_results": 0.9155435557598652
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__0.mp4",
+                "video_results": 0.9861538074586703
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_001__1.mp4",
+                "video_results": 0.9903398445766904
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__0.mp4",
+                "video_results": 0.9568458504003028
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/industry_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/industry_002__1.mp4",
+                "video_results": 0.9209358039109603
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1093662-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9817276011342587
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1093662-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1093662-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9876211132692254
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1200903-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+                "video_results": 0.9900162702021391
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/misc_1200903-hd_1920_1080_30fps.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/misc_1200903-hd_1920_1080_30fps__1.mp4",
+                "video_results": 0.9933939812623936
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__0.mp4",
+                "video_results": 0.9890296992400418
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_001__1.mp4",
+                "video_results": 0.9867686355891435
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__0.mp4",
+                "video_results": 0.9585651294692703
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/physics_002.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/physics_002__1.mp4",
+                "video_results": 0.9881130835284357
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__0.mp4",
+                "video_results": 0.9365118793171385
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_000.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_000__1.mp4",
+                "video_results": 0.9641722059768179
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__0.mp4",
+                "video_results": 0.9584465007419171
+            },
+            {
+                "image_path": "outputs/chapter_03/pai/subset/condition_image/robot_001.jpg",
+                "video_path": "outputs/chapter_03/pai/guidance7/videos/robot_001__1.mp4",
+                "video_results": 0.9538355748938477
+            }
+        ]
+    ]
+}

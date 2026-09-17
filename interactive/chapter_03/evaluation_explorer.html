@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter 3 evaluation explorer</title>
+<style>
+  :root {
+    --surface: #fcfcfb; --panel: #fff; --ink: #0b0b0b; --soft: #52514e;
+    --rule: #d6d5cf; --blue: #2a78d6; --blue-fill: #e6f0fc;
+    --orange: #eb6834; --orange-fill: #fdece4;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: var(--surface); color: var(--ink); font: 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 1120px; margin: 0 auto; }
+  h1 { margin: 0 0 6px; font-size: 26px; }
+  h2 { margin: 0 0 8px; font-size: 19px; }
+  h3 { margin: 0 0 8px; font-size: 15px; }
+  p { margin: 0 0 12px; }
+  a { color: #1f60ac; }
+  button, select, input, textarea { font: inherit; }
+  button, select, input[type="file"], textarea { border: 1px solid var(--rule); border-radius: 8px; background: #fff; color: var(--ink); padding: 8px 10px; }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--blue); }
+  button.primary { border-color: var(--blue); background: var(--blue); color: white; }
+  button:disabled { opacity: .5; cursor: default; }
+  :focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+  select, textarea { width: 100%; }
+  textarea { resize: vertical; min-height: 78px; }
+  label { display: block; font-weight: 600; margin-bottom: 5px; }
+  input[type="range"] { width: 100%; accent-color: var(--blue); }
+  .eyebrow { color: #a1421d; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 5px; }
+  .lede, .muted { color: var(--soft); }
+  .small { font-size: 13px; }
+  .lede { max-width: 900px; }
+  nav { display: flex; flex-wrap: wrap; gap: 18px; padding: 6px 0 18px; }
+  .panel { border: 1px solid var(--rule); border-radius: 12px; background: var(--panel); padding: 16px; margin-bottom: 16px; scroll-margin-top: 16px; }
+  .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .timeline { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; margin: 18px 0 8px; }
+  .timeline output { font-variant-numeric: tabular-nums; min-width: 170px; text-align: right; }
+  .status { color: var(--soft); font-size: 13px; min-height: 20px; }
+  .note { border-left: 3px solid var(--orange); background: var(--orange-fill); padding: 10px 12px; }
+  .question { border-left: 3px solid var(--blue); background: var(--blue-fill); padding: 10px 12px; margin-top: 14px; }
+  figure { margin: 0; min-width: 0; }
+  video { display: block; width: 100%; border-radius: 8px; background: #151515; aspect-ratio: 1280 / 704; margin-top: 10px; }
+  figcaption { margin-top: 8px; color: var(--soft); font-size: 13px; }
+  code { font-size: 12px; overflow-wrap: anywhere; }
+  details { margin-top: 10px; }
+  summary { cursor: pointer; color: #1f60ac; }
+  dl { display: grid; grid-template-columns: 100px 1fr; gap: 4px 8px; margin: 8px 0; font-size: 13px; }
+  dt { color: var(--soft); }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  .form-grid { display: grid; grid-template-columns: 120px 1fr 175px; gap: 12px; margin: 14px 0 12px; }
+  .actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+  input[type="file"] { max-width: 100%; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--rule); overflow-wrap: anywhere; }
+  th { font-weight: 600; }
+  td:last-child, th:last-child { text-align: right; }
+  .reviews { padding: 0; list-style: none; margin: 16px 0 0; }
+  .reviews li { border-top: 1px solid var(--rule); padding: 12px 0; }
+  .reviews p { margin: 4px 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+  .review-heading { display: flex; gap: 8px; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+  .review-heading button { font-size: 12px; padding: 4px 8px; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; max-height: 240px; overflow: auto; }
+  .error { color: #a32719; }
+  [hidden] { display: none !important; }
+  @media (max-width: 720px) {
+    body { padding: 14px; }
+    .two, .form-grid { grid-template-columns: 1fr; }
+    .timeline { grid-template-columns: auto 1fr; }
+    .timeline output { grid-column: 1 / -1; text-align: left; }
+    h1 { font-size: 23px; }
+    .panel { padding: 13px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">World Models from Scratch · Chapter 3</p>
+  <h1>Evaluation explorer</h1>
+  <p class="lede">Compare two saved rollouts, record visible evidence, and inspect evaluator scores when you have them. These Chapter 2 videos replay locally; no model or benchmark evaluator runs in this page.</p>
+  <nav aria-label="Explorer sections"><a href="#compare">Compare videos</a><a href="#scores">Inspect scores</a><a href="#review">Record evidence</a></nav>
+
+  <section class="panel" id="compare" aria-labelledby="compare-title">
+    <h2 id="compare-title">Compare the same moment</h2>
+    <p class="muted">Choose two runs. Change one generation setting at a time, then inspect motion and object identity through the clip.</p>
+    <div class="two">
+      <figure>
+        <label for="leftRun">Video A</label><select id="leftRun"></select>
+        <video id="leftVideo" muted playsinline preload="auto" aria-label="Selected rollout A"></video>
+        <figcaption id="leftCaption"></figcaption>
+        <details><summary>Run details</summary><dl id="leftDetails"></dl></details>
+      </figure>
+      <figure>
+        <label for="rightRun">Video B</label><select id="rightRun"></select>
+        <video id="rightVideo" muted playsinline preload="auto" aria-label="Selected rollout B"></video>
+        <figcaption id="rightCaption"></figcaption>
+        <details><summary>Run details</summary><dl id="rightDetails"></dl></details>
+      </figure>
+    </div>
+    <div class="timeline">
+      <button type="button" class="primary" id="playPause" disabled>Play</button>
+      <input id="frame" type="range" min="0" max="28" value="0" step="1" aria-label="Output frame">
+      <output id="frameLabel" for="frame">Frame 0 / 28 · 0.000 s</output>
+    </div>
+    <p class="status" id="videoStatus" role="status">Loading saved videos…</p>
+    <p class="note small">The videos contain 29 output frames at 16 fps, including the conditioning region. Frame numbers refer to the exported clip. These runs have no held-out recorded future, so visual review cannot establish prediction accuracy.</p>
+    <p class="question small" id="comparisonHint"></p>
+    <details><summary>Read the shared prompt</summary><p class="small" id="prompt"></p></details>
+  </section>
+
+  <section class="panel" id="scores" aria-labelledby="scores-title">
+    <h2 id="scores-title">Inspect evaluator scores</h2>
+    <p class="muted">Load a report produced by the chapter evaluation script. Scores appear beside the matching run IDs, in the evaluator's original scale.</p>
+    <label class="small" for="reportFile">Evaluation report (.json)</label>
+    <input id="reportFile" type="file" accept=".json,application/json">
+    <p class="status" id="scoreStatus" role="status">No evaluator results loaded.</p>
+    <div class="two" id="scorePanels" hidden>
+      <div><h3>Video A</h3><div id="leftScores"></div></div>
+      <div><h3>Video B</h3><div id="rightScores"></div></div>
+    </div>
+    <details id="reportDetails" hidden><summary>Report provenance</summary><pre id="reportMetadata"></pre></details>
+    <p class="question small">A high motion-smoothness score can accompany a nearly frozen video. Check dynamic degree and visible motion before judging a run. Compare each dimension separately.</p>
+  </section>
+
+  <section class="panel" id="review" aria-labelledby="review-title">
+    <h2 id="review-title">Record visible evidence</h2>
+    <p class="muted">Pause at a useful frame and answer one question. Describe the object, location, and visible change. These annotations are your review, separate from benchmark scores.</p>
+    <form id="reviewForm">
+      <div class="form-grid">
+        <div><label for="reviewSide">Video</label><select id="reviewSide"><option value="left">A</option><option value="right">B</option></select></div>
+        <div><label for="criterion">Question</label><select id="criterion">
+          <option value="motion_continuity">Does motion stay continuous?</option>
+          <option value="subject_identity">Does machinery preserve its shape and identity?</option>
+          <option value="prompt_adherence">Do machinery and water move as the prompt requests?</option>
+        </select></div>
+        <div><label for="judgment">Your judgment</label><select id="judgment"><option value="uncertain">Uncertain</option><option value="yes">Yes</option><option value="no">No</option></select></div>
+      </div>
+      <label for="evidence">Evidence at this moment</label>
+      <textarea id="evidence" maxlength="2000" required placeholder="Describe what you see, and compare adjacent frames when judging motion."></textarea>
+      <div class="actions"><button type="submit" class="primary">Save annotation at current frame</button><button type="button" id="exportReview" disabled>Export review JSON</button></div>
+    </form>
+    <p class="status" id="reviewStatus" role="status">No annotations yet. Notes stay in this page; export your review to keep them.</p>
+    <ol class="reviews" id="reviews"></ol>
+  </section>
+  <p class="small muted">Source videos and run manifests: <a href="../../assets/chapter_02/">assets/chapter_02/</a>. This explorer uses the chapter's custom clips. Imported custom-video scores do not constitute a full benchmark result.</p>
+</main>
+<script>
+"use strict";
+
+// Snapshot of the shipped manifests. Inline data also works when opened via file://.
+const BASE_MANIFEST = Object.freeze({
+  checkpoint: "nvidia/Cosmos-Predict2.5-2B",
+  revision: "diffusers/base/post-trained",
+  seed: 0,
+  num_frames: 29,
+  guidance_scale: 7.0,
+  num_inference_steps: 15,
+  height: 704,
+  width: 1280,
+  prompt: "an aerial view of a sand mining operation; the machinery keeps moving and the water keeps flowing",
+  observation: "assets/chapter_02/sand_mining.mp4",
+  created_at: "2026-08-16T06:45:18.354164+00:00",
+  run_id: "cbc346ed085d"
+});
+
+function savedRun(label, manifestPath, videoPath, changes = {}) {
+  return {
+    label,
+    manifest_path: manifestPath,
+    manifest: {...BASE_MANIFEST, ...changes, outputs: [videoPath]}
+  };
+}
+
+const RUNS = /* RUNS_BEGIN */ [
+  savedRun(
+    "Seed 0 · guidance 7 · 15 steps",
+    "assets/chapter_02/seeds/rollout_seed0.manifest.json",
+    "assets/chapter_02/seeds/rollout_seed0.mp4"
+  ),
+  savedRun(
+    "Seed 1 · guidance 7 · 15 steps",
+    "assets/chapter_02/seeds/rollout_seed1.manifest.json",
+    "assets/chapter_02/seeds/rollout_seed1.mp4",
+    {seed: 1, created_at: "2026-08-16T06:45:18.359652+00:00", run_id: "15624d9a703d"}
+  ),
+  savedRun(
+    "Seed 2 · guidance 7 · 15 steps",
+    "assets/chapter_02/seeds/rollout_seed2.manifest.json",
+    "assets/chapter_02/seeds/rollout_seed2.mp4",
+    {seed: 2, created_at: "2026-08-16T06:45:18.365365+00:00", run_id: "df2194c242c6"}
+  ),
+  savedRun(
+    "Seed 3 · guidance 7 · 15 steps",
+    "assets/chapter_02/seeds/rollout_seed3.manifest.json",
+    "assets/chapter_02/seeds/rollout_seed3.mp4",
+    {seed: 3, created_at: "2026-08-16T06:45:18.370641+00:00", run_id: "e529985080b9"}
+  ),
+  savedRun(
+    "Seed 0 · guidance 3 · 15 steps",
+    "assets/chapter_02/guidance_sweep/guidance_3_seed0.manifest.json",
+    "assets/chapter_02/guidance_sweep/guidance_3_seed0.mp4",
+    {guidance_scale: 3.0, created_at: "2026-08-16T06:45:18.375983+00:00", run_id: "0cd50b6c8376"}
+  ),
+  savedRun(
+    "Seed 0 · guidance 12 · 15 steps",
+    "assets/chapter_02/guidance_sweep/guidance_12_seed0.manifest.json",
+    "assets/chapter_02/guidance_sweep/guidance_12_seed0.mp4",
+    {guidance_scale: 12.0, created_at: "2026-08-16T06:45:18.388076+00:00", run_id: "50d4210398c4"}
+  ),
+  savedRun(
+    "Seed 0 · guidance 7 · 20 steps",
+    "assets/chapter_02/steps_sweep/steps_20_seed0.manifest.json",
+    "assets/chapter_02/steps_sweep/steps_20_seed0.mp4",
+    {num_inference_steps: 20, created_at: "2026-08-16T06:45:18.393653+00:00", run_id: "3eb3da9d05e7"}
+  ),
+  savedRun(
+    "Seed 0 · guidance 7 · 36 steps",
+    "assets/chapter_02/steps_sweep/steps_36_seed0.manifest.json",
+    "assets/chapter_02/steps_sweep/steps_36_seed0.mp4",
+    {num_inference_steps: 36, created_at: "2026-08-16T06:45:18.398914+00:00", run_id: "7759e36b4bf4"}
+  ),
+  savedRun(
+    "Seed 0 · guidance 7 · 50 steps",
+    "assets/chapter_02/steps_sweep/steps_50_seed0.manifest.json",
+    "assets/chapter_02/steps_sweep/steps_50_seed0.mp4",
+    {num_inference_steps: 50, created_at: "2026-08-16T06:45:18.405248+00:00", run_id: "4b11f3b59fdf"}
+  )
+] /* RUNS_END */;
+const FPS = 16;
+const LAST_FRAME = 28;
+const byId = (id) => document.getElementById(id);
+const sides = ["left", "right"];
+let currentFrame = 0;
+let playing = false;
+let animationId = null;
+let playbackStart = 0;
+let playbackFrame = 0;
+let report = null;
+let reportName = "";
+const reviews = [];
+
+function selectedRun(side) { return RUNS[Number(byId(side + "Run").value)]; }
+
+function element(tag, value, className) {
+  const node = document.createElement(tag);
+  if (value !== undefined) node.textContent = value;
+  if (className) node.className = className;
+  return node;
+}
+
+function pause() {
+  playing = false;
+  if (animationId !== null) cancelAnimationFrame(animationId);
+  animationId = null;
+  byId("playPause").textContent = "Play";
+}
+
+function seekVideo(video) {
+  if (video.readyState < 1 || !Number.isFinite(video.duration)) return;
+  // Seek inside the frame interval, avoiding floating-point boundary ambiguity.
+  const time = Math.min((currentFrame + 0.25) / FPS, Math.max(0, video.duration - 0.001));
+  if (Math.abs(video.currentTime - time) > 0.001) video.currentTime = time;
+}
+
+function setFrame(value) {
+  currentFrame = Math.max(0, Math.min(LAST_FRAME, Math.round(Number(value))));
+  byId("frame").value = currentFrame;
+  byId("frameLabel").textContent = `Frame ${currentFrame} / ${LAST_FRAME} · ${(currentFrame / FPS).toFixed(3)} s`;
+  sides.forEach((side) => seekVideo(byId(side + "Video")));
+}
+
+function tick(now) {
+  if (!playing) return;
+  const next = playbackFrame + Math.floor((now - playbackStart) * FPS / 1000);
+  if (next !== currentFrame) setFrame(next);
+  if (next >= LAST_FRAME) { pause(); return; }
+  animationId = requestAnimationFrame(tick);
+}
+
+function updateVideoStatus() {
+  const videos = sides.map((side) => byId(side + "Video"));
+  const failed = videos.some((video) => video.error);
+  const ready = videos.every((video) => video.readyState >= 2);
+  byId("playPause").disabled = !ready || failed;
+  byId("videoStatus").classList.toggle("error", failed);
+  byId("videoStatus").textContent = failed
+    ? "A video could not load. Keep this page inside the repository with assets/chapter_02 available."
+    : ready ? "Both videos follow the shared frame control. Playback stops at the final frame." : "Loading saved videos…";
+  if (failed) pause();
+}
+
+function renderDetails(side) {
+  const run = selectedRun(side);
+  const data = run.manifest;
+  byId(side + "Caption").replaceChildren(
+    element("span", `Seed ${data.seed} · guidance ${data.guidance_scale} · ${data.num_inference_steps} inference steps`),
+    element("br"), element("span", "Run "), element("code", data.run_id)
+  );
+  const details = byId(side + "Details");
+  details.replaceChildren();
+  const values = {
+    "Checkpoint": data.checkpoint,
+    "Revision": data.revision,
+    "Output": `${data.num_frames} frames · ${data.width} × ${data.height}`,
+    "Observation": data.observation,
+    "Created": data.created_at
+  };
+  for (const [key, value] of Object.entries(values)) details.append(element("dt", key), element("dd", value));
+  const link = element("a", "Open run manifest");
+  link.href = "../../" + run.manifest_path;
+  details.append(element("dt", "Manifest"), element("dd"));
+  details.lastChild.append(link);
+}
+
+function renderComparisonHint() {
+  const a = selectedRun("left").manifest;
+  const b = selectedRun("right").manifest;
+  const changed = [["seed", "seed"], ["guidance_scale", "guidance"], ["num_inference_steps", "inference steps"]]
+    .filter(([key]) => a[key] !== b[key]).map(([, label]) => label);
+  byId("comparisonHint").textContent = changed.length === 0
+    ? "Both selections have the same run ID and generation settings. Select a different run to compare outputs."
+    : changed.length === 1
+      ? `Only ${changed[0]} differs. Which visible changes recur through the clip, and which appear for just one frame?`
+      : `These selections differ in ${changed.join(" and ")}. Any difference could come from either control; choose a pair with one changed setting to isolate it.`;
+}
+
+function loadRun(side) {
+  pause();
+  const run = selectedRun(side);
+  const video = byId(side + "Video");
+  video.src = "../../" + run.manifest.outputs[0];
+  video.load();
+  renderDetails(side);
+  renderComparisonHint();
+  renderScores();
+  updateVideoStatus();
+}
+
+function renderScoreTable(side) {
+  const target = byId(side + "Scores");
+  target.replaceChildren();
+  const rows = report.rows.filter((row) => row.run_id === selectedRun(side).manifest.run_id);
+  if (rows.length === 0) { target.append(element("p", "This report has no scores for this run.", "small muted")); return; }
+  const table = element("table");
+  const caption = element("caption", `Run ${selectedRun(side).manifest.run_id}`);
+  caption.className = "small muted";
+  const head = element("thead");
+  const heading = element("tr");
+  for (const label of ["Dimension", "Score"]) {
+    const cell = element("th", label); cell.scope = "col"; heading.append(cell);
+  }
+  head.append(heading);
+  const body = element("tbody");
+  for (const row of rows) {
+    const tr = element("tr");
+    tr.append(element("td", row.dimension.replaceAll("_", " ")), element("td", String(row.score)));
+    body.append(tr);
+  }
+  table.append(caption, head, body);
+  target.append(table);
+}
+
+function renderScores() {
+  byId("scorePanels").hidden = report === null;
+  byId("reportDetails").hidden = report === null;
+  if (!report) return;
+  sides.forEach(renderScoreTable);
+  const metadata = Object.fromEntries(Object.entries(report).filter(([key]) => key !== "rows"));
+  byId("reportMetadata").textContent = JSON.stringify(metadata, null, 2);
+  byId("scoreStatus").classList.remove("error");
+  const scope = typeof report.scope === "string" ? ` Scope: ${report.scope}.` : "";
+  byId("scoreStatus").textContent = `Loaded ${reportName}: ${report.rows.length} score rows.${scope}`;
+}
+
+function renderReviews() {
+  const list = byId("reviews");
+  list.replaceChildren();
+  reviews.forEach((review, index) => {
+    const item = element("li");
+    const heading = element("div", undefined, "review-heading");
+    heading.append(element("strong", `${index + 1}. ${review.judgment.toUpperCase()} · ${review.question}`));
+    const jump = element("button", `Open frame ${review.frame_index}`);
+    jump.type = "button";
+    jump.addEventListener("click", () => {
+      const runIndex = RUNS.findIndex((run) => run.manifest_path === review.manifest_path);
+      byId("leftRun").value = runIndex;
+      loadRun("left");
+      setFrame(review.frame_index);
+      byId("compare").scrollIntoView({behavior: "smooth"});
+    });
+    heading.append(jump);
+    item.append(heading, element("p", `Run ${review.run_id} · frame ${review.frame_index} · ${review.timestamp_seconds.toFixed(3)} s`, "small muted"), element("p", review.evidence));
+    list.append(item);
+  });
+  byId("exportReview").disabled = reviews.length === 0;
+  byId("reviewStatus").textContent = `${reviews.length} annotation${reviews.length === 1 ? "" : "s"} saved in this page. Export your review to keep them.`;
+}
+
+for (const side of sides) {
+  const picker = byId(side + "Run");
+  for (const [index, run] of RUNS.entries()) {
+    const option = element("option", run.label); option.value = index; picker.append(option);
+  }
+  picker.value = side === "left" ? 0 : 1;
+  picker.addEventListener("change", () => loadRun(side));
+  const video = byId(side + "Video");
+  video.addEventListener("loadedmetadata", () => seekVideo(video));
+  for (const event of ["loadeddata", "canplay", "error", "emptied"]) video.addEventListener(event, updateVideoStatus);
+}
+byId("prompt").textContent = RUNS[0].manifest.prompt;
+sides.forEach(loadRun);
+
+byId("frame").addEventListener("input", (event) => { pause(); setFrame(event.target.value); });
+byId("playPause").addEventListener("click", () => {
+  if (playing) { pause(); return; }
+  if (currentFrame === LAST_FRAME) setFrame(0);
+  playbackStart = performance.now();
+  playbackFrame = currentFrame;
+  playing = true;
+  byId("playPause").textContent = "Pause";
+  animationId = requestAnimationFrame(tick);
+});
+document.addEventListener("visibilitychange", () => { if (document.hidden) pause(); });
+
+byId("reportFile").addEventListener("change", async (event) => {
+  const file = event.target.files[0];
+  if (!file) return;
+  try {
+    if (file.size > 20 * 1024 * 1024) throw new Error("Choose a JSON report smaller than 20 MB.");
+    const parsed = JSON.parse(await file.text());
+    const candidate = Array.isArray(parsed) ? {rows: parsed} : parsed;
+    if (!candidate || !Array.isArray(candidate.rows)) throw new Error("Expected a report with a rows array.");
+    for (const row of candidate.rows) {
+      if (!row || typeof row.run_id !== "string" || !row.run_id.trim() || typeof row.dimension !== "string" || !row.dimension.trim() || typeof row.score !== "number" || !Number.isFinite(row.score)) {
+        throw new Error("Each score row needs a run_id, dimension, and finite numeric score.");
+      }
+    }
+    report = candidate;
+    reportName = file.name;
+    renderScores();
+  } catch (error) {
+    report = null;
+    reportName = "";
+    renderScores();
+    byId("scoreStatus").classList.add("error");
+    byId("scoreStatus").textContent = `Could not load report: ${error.message}`;
+  }
+});
+
+byId("reviewForm").addEventListener("submit", (event) => {
+  event.preventDefault();
+  const evidence = byId("evidence").value.trim();
+  if (!evidence) { byId("evidence").focus(); return; }
+  pause();
+  const run = selectedRun(byId("reviewSide").value);
+  const criterion = byId("criterion");
+  reviews.push({
+    run_id: run.manifest.run_id,
+    video_path: run.manifest.outputs[0],
+    manifest_path: run.manifest_path,
+    frame_index: currentFrame,
+    timestamp_seconds: currentFrame / FPS,
+    frame_rate: FPS,
+    frame_coordinate: "exported_clip",
+    criterion: criterion.value,
+    question: criterion.selectedOptions[0].textContent,
+    judgment: byId("judgment").value,
+    evidence,
+    recorded_at: new Date().toISOString()
+  });
+  byId("evidence").value = "";
+  renderReviews();
+});
+
+byId("exportReview").addEventListener("click", () => {
+  const result = {
+    schema_version: 1,
+    kind: "human_review",
+    scope: "chapter_02_custom_clips",
+    source: "interactive/chapter_03/evaluation_explorer.html",
+    exported_at: new Date().toISOString(),
+    evaluator_report_filename: reportName || null,
+    annotations: reviews
+  };
+  const url = URL.createObjectURL(new Blob([JSON.stringify(result, null, 2) + "\n"], {type: "application/json"}));
+  const link = element("a");
+  link.href = url;
+  link.download = "chapter_03_human_review.json";
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
+</script>
+</body>
+</html>

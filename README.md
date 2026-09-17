@@ -13,7 +13,7 @@ evaluate, customize, and deploy world models.
 
 * [Chapter 1: Understanding World Models](chapters/chapter_01/README.md)
 * [Chapter 2: Running a Pretrained World Model](chapters/chapter_02/README.md)
-* Chapter 3: Evaluating World Models (coming soon)
+* [Chapter 3: Evaluating World Models](chapters/chapter_03/README.md)
 * Chapter 4: Building a World Model from Scratch (coming soon)
 * Chapter 5: Architectures of Modern World Models (coming soon)
 * Chapter 6: Pretraining World Models (coming soon)

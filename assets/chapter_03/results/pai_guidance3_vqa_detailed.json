@@ -1,0 +1,1558 @@
+[
+    {
+        "video_id": "av_002b815b-7595-4d54-a9f4-4c62c83d3009",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/av_002b815b-7595-4d54-a9f4-4c62c83d3009__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "av",
+        "results": [
+            {
+                "uid": "av_002b815b-7595-4d54-a9f4-4c62c83d3009_Q1_(Space:_Relationship)",
+                "question": "Are the double yellow lines continuously running along the left side of the ego vehicle?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_002b815b-7595-4d54-a9f4-4c62c83d3009_Q2_(Space:_Interaction)",
+                "question": "Do the two cyclists ride past the ego vehicle on the left side of the road?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "NO"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_002b815b-7595-4d54-a9f4-4c62c83d3009_Q3_(Space:_Interaction)",
+                "question": "Does the white sedan drive towards the camera from the opposite direction?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_002b815b-7595-4d54-a9f4-4c62c83d3009_Q4_(Space:_Geometry)",
+                "question": "Is the left-turn-only pavement marking visible with a single white line on the right side of the vehicle?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_002b815b-7595-4d54-a9f4-4c62c83d3009_Q5_(Time:_Actions)",
+                "question": "Does the ego vehicle move into the left-turn-only lane as it approaches the intersection?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_002b815b-7595-4d54-a9f4-4c62c83d3009_Q6_(Physics:_Attributes)",
+                "question": "Is the 'SLOW SCHOOL XING' sign painted in yellow on the asphalt?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.25,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/av_00d8e9d4-d669-42d9-8aa9-16a09a47b531__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "av",
+        "results": [
+            {
+                "uid": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531_Q1_(Time:_Camera)",
+                "question": "Does the video maintain a consistent perspective without abrupt changes in camera angle?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531_Q2_(Physics:_Object_Permanence)",
+                "question": "Does the number of vehicles facing the opposite direction of the ego vehicle stay the same?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "YES",
+                    "NO"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531_Q3_(Physics:_States)",
+                "question": "Is the rear right light of the white vehicle directly ahead of the ego vehicle blinking throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.5,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "common_sense_049c9292-db5f-490b-a72b-546775e8156c",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/common_sense_049c9292-db5f-490b-a72b-546775e8156c__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "common_sense",
+        "results": [
+            {
+                "uid": "common_sense_049c9292-db5f-490b-a72b-546775e8156c_Q1_(Physics:_Attributes)",
+                "question": "Is the man in the video wearing black gloves on both of his hands?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 1.0,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "common_sense",
+        "results": [
+            {
+                "uid": "common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155_Q1_(Time:_Actions)",
+                "question": "Is the kid eating a burger?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "YES"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.5,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "human_000",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/human_000__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/human_000__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "human",
+        "results": [
+            {
+                "uid": "human_000_Q1_(Space:_Relationship)",
+                "question": "Are the tall, lush green trees positioned along the sides of the cobblestone walkway?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q2_(Space:_Relationship)",
+                "question": "Do the buildings on either side of the street have balconies and large windows?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q3_(Space:_Interaction)",
+                "question": "Are people walking in various directions along the street?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q4_(Space:_Interaction)",
+                "question": "Do some individuals appear to be carrying bags or wearing backpacks?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q5_(Space:_Geometry)",
+                "question": "Do the shadows cast by the trees appear on the cobblestone walkway?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q6_(Space:_Geometry)",
+                "question": "Are the buildings multi-story structures?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q7_(Time:_Actions)",
+                "question": "Does the video show people walking both briskly and slowly?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q10_(Time:_Order)",
+                "question": "Do the trees and buildings remain in the same position throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q11_(Time:_Camera)",
+                "question": "Is the camera angle fixed, capturing the same scene throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q12_(Time:_Camera)",
+                "question": "Does the video avoid any scene transitions or camera movements?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q13_(Physics:_Attributes)",
+                "question": "Are the people dressed in casual summer attire such as shorts, t-shirts, and light dresses?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q15_(Physics:_States)",
+                "question": "Does the video show the environment remaining consistent without any changes in weather or lighting?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q17_(Physics:_Object_Permanence)",
+                "question": "Do the trees and buildings remain visible throughout the entire video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_000_Q18_(Physics:_Object_Permanence)",
+                "question": "Do the people in the video remain visible without any unexplained disappearances?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 1.0,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "human_001",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/human_001__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/human_001__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "human",
+        "results": [
+            {
+                "uid": "human_001_Q1_(Space:_Relationship)",
+                "question": "Is the Cloud Gate sculpture positioned centrally in the frame with people and buildings surrounding it?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q2_(Space:_Relationship)",
+                "question": "Are the modern high-rise buildings visible in the background of the plaza?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q3_(Space:_Interaction)",
+                "question": "Does the person in the gray jacket interact with their backpack by adjusting it while walking?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q4_(Space:_Interaction)",
+                "question": "Is the person in the beige coat using their phone while walking towards the sculpture?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q5_(Space:_Geometry)",
+                "question": "Does the reflective surface of the Cloud Gate sculpture accurately mirror the surrounding buildings and people?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q6_(Space:_Geometry)",
+                "question": "Are the large, light-colored tiles of the plaza visible and consistent throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q7_(Time:_Actions)",
+                "question": "Does the person in the gray jacket walk from right to left across the frame?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q8_(Time:_Actions)",
+                "question": "Does the person in the beige coat enter the frame from the right side?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q9_(Time:_Order)",
+                "question": "Does the video show the person in the gray jacket passing by the Cloud Gate sculpture before the person in the beige coat approaches it?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q11_(Time:_Camera)",
+                "question": "Does the camera maintain a wide shot throughout the video, capturing the entire plaza and the Cloud Gate sculpture?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q12_(Time:_Camera)",
+                "question": "Is the camera angle consistent, showing the plaza from a single perspective without abrupt changes?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "NO"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q13_(Physics:_Attributes)",
+                "question": "Are the people in the video dressed in jackets and hats, suggesting a cool or winter day?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q14_(Physics:_Attributes)",
+                "question": "Is the Cloud Gate sculpture's surface shiny and reflective, as described?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q17_(Physics:_Object_Permanence)",
+                "question": "Does the Cloud Gate sculpture remain visible and central in the frame throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "human_001_Q18_(Physics:_Object_Permanence)",
+                "question": "Do the people in the plaza remain visible without any unexplained disappearances?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.8333333333333334,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "industry_001",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/industry_001__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/industry_001__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "industry",
+        "results": [
+            {
+                "uid": "industry_001_Q1_(Physics:_Object_Permanence)",
+                "question": "Can the conveyor belt and yellow crates be seen inside the factory throughout the scene?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "industry_001_Q2_(Physics:_States)",
+                "question": "Is there artificial lighting constantly on in the scene?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "industry_001_Q3_(Physics:_Attributes)",
+                "question": "Are the crates in the scene all colored yellow?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "industry_001_Q4_(Time:_Camera)",
+                "question": "Does the camera move forward throughout the whole scene?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 1.0,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "industry_002",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/industry_002__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/industry_002__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "industry",
+        "results": [
+            {
+                "uid": "industry_002_Q1_(Physics:_States)",
+                "question": "Does the light remain on during the entire scene?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "industry_002_Q2_(Time:_Action)",
+                "question": "Is the conveyor belt transporting the bottles throughout the scene?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "industry_002_Q3_(Physics:_Object_Permanence)",
+                "question": "Can the conveyor belt, white bottles, mechanical arm, and bottle caps be seen throughout the scene?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 1.0,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "misc_1093662-hd_1920_1080_30fps",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/misc_1093662-hd_1920_1080_30fps__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/misc_1093662-hd_1920_1080_30fps__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "misc",
+        "results": [
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q1_(Space:_Relationship)",
+                "question": "Are the rugged, dark rocks in the foreground covered in patches of reddish-brown seaweed?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q3_(Space:_Interaction)",
+                "question": "Do the gentle waves lap against the rocky shoreline, creating small pools and splashes?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q4_(Space:_Interaction)",
+                "question": "Does the video show the waves interacting with the rocks without any new objects appearing?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q7_(Time:_Actions)",
+                "question": "Do the waves continue to crash against the rocks throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q9_(Time:_Order)",
+                "question": "Does the video begin with a serene coastal scene and end with the ongoing interaction between waves and rocks?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q16_(Physics:_States)",
+                "question": "Does the video show the rocks remaining firm under the warm, glowing light?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1093662-hd_1920_1080_30fps_Q18_(Physics:_Object_Permanence)",
+                "question": "Is there no appearance of new objects in the scene as the video progresses?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 1.0,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "misc_1200903-hd_1920_1080_30fps",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/misc_1200903-hd_1920_1080_30fps__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/misc_1200903-hd_1920_1080_30fps__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "misc",
+        "results": [
+            {
+                "uid": "misc_1200903-hd_1920_1080_30fps_Q1_(Space:_Relationship)",
+                "question": "Are the adult geese positioned among the chicks on the patch of grass?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1200903-hd_1920_1080_30fps_Q2_(Space:_Relationship)",
+                "question": "Is the river located on the left side of the frame throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1200903-hd_1920_1080_30fps_Q3_(Space:_Interaction)",
+                "question": "Do the chicks occasionally peck at the ground or nuzzle close to the adults?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1200903-hd_1920_1080_30fps_Q6_(Space:_Geometry)",
+                "question": "Is there any noticeable distortion in the shape of the geese or chicks?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1200903-hd_1920_1080_30fps_Q12_(Time:_Camera)",
+                "question": "Does the camera make any sudden, unexplained movements or cuts?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "misc_1200903-hd_1920_1080_30fps_Q13_(Physics:_Attributes)",
+                "question": "Do the chicks have lighter gray feathers on their necks compared to the adults?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 1.0,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "physics_001",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/physics_001__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/physics_001__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "physics",
+        "results": [
+            {
+                "uid": "physics_001_Q1_(Space:_Relationship)",
+                "question": "Is the yellow rubber ducky positioned directly above the open black fabric box before it is released?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q2_(Space:_Relationship)",
+                "question": "Is the wooden table visible in the scene throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q3_(Space:_Interaction)",
+                "question": "Does the yellow rubber ducky interact with the box by falling into it?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q5_(Space:_Geometry)",
+                "question": "Does the yellow rubber ducky maintain its shape without any unrealistic deformation during the fall?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q7_(Time:_Actions)",
+                "question": "Does the yellow rubber ducky fall straight down towards the box when released?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q8_(Time:_Actions)",
+                "question": "Does the yellow rubber ducky move sideways after being released?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q9_(Time:_Order)",
+                "question": "Does the video show the ducky being released before it impacts the box?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q11_(Time:_Camera)",
+                "question": "Does the camera remain static throughout the video without any panning or zooming?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q13_(General_Physics:_Attributes)",
+                "question": "Is the yellow rubber ducky depicted with a consistent yellow color throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q15_(General_Physics:_States)",
+                "question": "Does the yellow rubber ducky change its state from solid to liquid upon impact with the box?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_001_Q18_(General_Physics:_Object_Permanence)",
+                "question": "Does the orange grabber holding the ducky disappear after the ducky is released?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.9090909090909091,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "physics_002",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/physics_002__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/physics_002__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "physics",
+        "results": [
+            {
+                "uid": "physics_002_Q1_(Space:_Relationship)",
+                "question": "Is the mustard-yellow velvet sofa positioned against the white wall in the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q2_(Space:_Relationship)",
+                "question": "Is the black cylindrical object placed on the right side of the coffee table?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q3_(Space:_Interaction)",
+                "question": "Does the tennis ball interact with any other objects on the coffee table as it rolls across?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q4_(Space:_Interaction)",
+                "question": "Does the lamp on the side table turn on or off during the video?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q5_(Space:_Geometry)",
+                "question": "Does the tennis ball maintain a spherical shape as it rolls across the table?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q6_(Space:_Geometry)",
+                "question": "Does the coffee table appear to change shape or size during the video?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q7_(Time:_Actions)",
+                "question": "Does the tennis ball roll smoothly across the table without stopping?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q8_(Time:_Actions)",
+                "question": "Does the tennis ball bounce off the coffee table before rolling off-screen?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "YES",
+                    "NO"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q9_(Time:_Order)",
+                "question": "Does the tennis ball emerge from the black pipe before rolling across the table?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q10_(Time:_Order)",
+                "question": "Does the video show the tennis ball rolling across the table before emerging from the pipe?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q11_(Time:_Camera)",
+                "question": "Does the camera angle remain static throughout the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q12_(Time:_Camera)",
+                "question": "Does the camera zoom in on the tennis ball as it rolls across the table?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q13_(General_Physics:_Attributes)",
+                "question": "Is the tennis ball grey in color as described in the text prompt?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "YES"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q15_(General_Physics:_States)",
+                "question": "Does the tennis ball change color as it rolls across the table?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q16_(General_Physics:_States)",
+                "question": "Does the black pipe change position during the video?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q17_(General_Physics:_Object_Permanence)",
+                "question": "Does the tennis ball disappear from the scene after rolling off-screen?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "NO"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q18_(General_Physics:_Object_Permanence)",
+                "question": "Does the black cylindrical object disappear from the coffee table during the video?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "physics_002_Q20_(Specific_Physical_Law)",
+                "question": "Does the tennis ball deform or flatten as it rolls across the table, indicating a violation of solid mechanics?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.8055555555555556,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "robot_000",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/robot_000__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/robot_000__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "robot",
+        "results": [
+            {
+                "uid": "robot_000_Q3_(Space:_Interaction)",
+                "question": "Does the robotic arm make contact with the cabinet door handle before attempting to open it?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q4_(Space:_Interaction)",
+                "question": "Does the robotic arm successfully open the cabinet door by applying pressure to the handle?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q5_(Space:_Geometry)",
+                "question": "Is the cabinet door rectangular in shape as described in the prompt?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q7_(Time:_Actions)",
+                "question": "Does the robotic arm descend towards the cabinet door before opening it?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q8_(Time:_Actions)",
+                "question": "Does the robotic arm opens the cabinet door slightly before fully opening it?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q9_(Time:_Order)",
+                "question": "Does the robotic arm grasp the handle before the cabinet door begins to open?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q11_(Time:_Camera)",
+                "question": "Does the video start with a close-up shot of the cabinet door?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "YES"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q15_(Physics:_States)",
+                "question": "Does the cabinet door change from a closed to a partially open state during the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q16_(Physics:_States)",
+                "question": "Does the robotic arm maintain contact with the handle throughout the door opening process?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 0.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_000_Q17_(Physics:_Object_Permanence)",
+                "question": "Do the green plate and yellow object remain visible on the interior shelves once the door is opened?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.85,
+        "total_seeds": 2
+    },
+    {
+        "video_id": "robot_001",
+        "video_paths": [
+            "outputs/chapter_03/pai/guidance3/videos/robot_001__0.mp4",
+            "outputs/chapter_03/pai/guidance3/videos/robot_001__1.mp4"
+        ],
+        "seeds": [
+            "0",
+            "1"
+        ],
+        "category": "robot",
+        "results": [
+            {
+                "uid": "robot_001_Q1_(Space:_Relationship)",
+                "question": "Is the silver pot positioned on the burner of the blue stove?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q2_(Space:_Relationship)",
+                "question": "Is the yellow plate located to the left of the stove?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q3_(Space:_Interaction)",
+                "question": "Does the robotic arm successfully pick up the toy red sushi?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "YES"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q4_(Space:_Interaction)",
+                "question": "Does the robotic arm place the red sushi into the silver pot?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q5_(Space:_Geometry)",
+                "question": "Is the orange toy carrot on the white shelf above the stove?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q7_(Time:_Actions)",
+                "question": "Does the robotic arm move towards the red sushi before picking it up?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "YES"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q8_(Time:_Actions)",
+                "question": "Does the robotic arm lift the red sushi towards the pot before placing it inside?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q9_(Time:_Order)",
+                "question": "Does the robotic arm pick up the yellow banana?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q10_(Time:_Order)",
+                "question": "Is the red sushi shown inside the pot at the end of the video?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "NO",
+                    "YES"
+                ],
+                "accuracy": 0.5,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q11_(Time:_Camera)",
+                "question": "Does the video start with a close-up view of the toy kitchen setup?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q13_(Physics:_Attributes)",
+                "question": "Is the chili pepper green in color?",
+                "correct_answer": "B",
+                "model_answers": [
+                    "NO",
+                    "NO"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            },
+            {
+                "uid": "robot_001_Q15_(Physics:_States)",
+                "question": "Does the state of the red sushi change from being outside to inside the pot?",
+                "correct_answer": "A",
+                "model_answers": [
+                    "YES",
+                    "YES"
+                ],
+                "accuracy": 1.0,
+                "total_seeds": 2,
+                "task": "task:success:discrete:True"
+            }
+        ],
+        "accuracy": 0.875,
+        "total_seeds": 2
+    }
+]

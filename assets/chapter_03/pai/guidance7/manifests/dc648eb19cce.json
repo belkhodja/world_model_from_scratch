@@ -1,0 +1,28 @@
+{
+  "checkpoint": "nvidia/Cosmos-Predict2.5-2B",
+  "revision": "0d37c7498f54cee3c599d438d895a0a4a8608064",
+  "seed": 1,
+  "num_frames": 93,
+  "guidance_scale": 7.0,
+  "num_inference_steps": 36,
+  "height": 704,
+  "width": 1280,
+  "prompt": "The video opens with a view of an industrial setting, likely a manufacturing facility, characterized by a clean and sterile environment. The scene features a conveyor belt system transporting white bottles through a series of automated machinery. The machinery includes various mechanical arms, pipes, and tubes, predominantly metallic and transparent, with some components colored yellow and blue. The conveyor belt moves steadily, carrying the bottles towards the processing stations. The background reveals additional machinery and equipment, suggesting a complex production line. The lighting is bright and evenly distributed, remaining consistent throughout the video.  As the video progresses, the mechanical arms are seen lifting and positioning the bottles at different stages of the production process. The mechanical arm can be seen adding bottle caps on top of the bottles. The bottles move smoothly along the conveyor, indicating a continuous workflow. The camera angle shifts slightly, providing a closer view of the machinery and the bottles as they pass through the processing stations. The final frame captures the same scene, with the conveyor belt continuing its steady movement, the bottles being processed, and the machinery functioning seamlessly, maintaining the same level of activity and efficiency observed throughout the video.",
+  "observation": "outputs/chapter_03/pai/subset/condition_image/industry_002.jpg",
+  "outputs": [
+    "/mnt/ssd-4/nahid/world_model_from_scratch_private/outputs/chapter_03/pai/guidance7/runs/dc648eb19cce/rollout.mp4"
+  ],
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "diffusers": "0.39.0",
+    "transformers": "5.14.1",
+    "cosmos_guardrail": "0.3.1",
+    "accelerate": "1.14.0"
+  },
+  "created_at": "2026-09-09T07:39:37.121432+00:00",
+  "conditioning_frames_sha256": "fa30241fb63f25ce3cf5969cc8402b5e2ff81573e85b61b794fd38bbfd6dfede",
+  "conditioning_num_frames": 1,
+  "conditioning_fps": null,
+  "output_fps": 16,
+  "run_id": "dc648eb19cce"
+}

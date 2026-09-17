@@ -1,0 +1,54 @@
+{
+  "dataset": "shi-labs/physical-ai-bench-generation",
+  "dataset_revision": "c36b7beb69bd7c4adcedc1431407fce98f9dfe44",
+  "subset_manifest": "outputs/chapter_03/pai/subset/subset.json",
+  "subset_manifest_sha256": "496f0a904b25407f80717208f4e59d949c4cd25738363e24f7b8dc7a9c620fa4",
+  "conditioning": "image",
+  "checkpoint": "nvidia/Cosmos-Predict2.5-2B",
+  "checkpoint_revision": "0d37c7498f54cee3c599d438d895a0a4a8608064",
+  "fps": 16,
+  "num_frames": 93,
+  "num_inference_steps": 36,
+  "guidance_scale": 3.0,
+  "seeds": [
+    0,
+    1
+  ],
+  "num_shards": 8,
+  "video_ids": [
+    "av_002b815b-7595-4d54-a9f4-4c62c83d3009",
+    "av_00d8e9d4-d669-42d9-8aa9-16a09a47b531",
+    "common_sense_049c9292-db5f-490b-a72b-546775e8156c",
+    "common_sense_062f7b4e-1f09-4a1e-9f1a-5c531c9e2155",
+    "human_000",
+    "human_001",
+    "industry_001",
+    "industry_002",
+    "misc_1093662-hd_1920_1080_30fps",
+    "misc_1200903-hd_1920_1080_30fps",
+    "physics_001",
+    "physics_002",
+    "robot_000",
+    "robot_001"
+  ],
+  "category_counts": {
+    "av": 2,
+    "common_sense": 2,
+    "human": 2,
+    "industry": 2,
+    "misc": 2,
+    "physics": 2,
+    "robot": 2
+  },
+  "expected_videos": 28,
+  "source_shards": [
+    "outputs/chapter_03/pai/guidance3_shards/shard0",
+    "outputs/chapter_03/pai/guidance3_shards/shard1",
+    "outputs/chapter_03/pai/guidance3_shards/shard2",
+    "outputs/chapter_03/pai/guidance3_shards/shard3",
+    "outputs/chapter_03/pai/guidance3_shards/shard4",
+    "outputs/chapter_03/pai/guidance3_shards/shard5",
+    "outputs/chapter_03/pai/guidance3_shards/shard6",
+    "outputs/chapter_03/pai/guidance3_shards/shard7"
+  ]
+}
